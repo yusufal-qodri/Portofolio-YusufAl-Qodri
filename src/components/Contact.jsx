@@ -45,29 +45,29 @@ export default function Contact() {
   const small = [
     {
       label: "Email",
-      val: "mrizqwijaya@gmail.com",
-      href: "https://mail.google.com/mail/?view=cm&fs=1&to=mrizqwijaya@gmail.com",
+      val: "yusufsusma@apps.ipb.ac.id",
+      href: "https://mail.google.com/mail/?view=cm&fs=1&to=yusufsusma@apps.ipb.ac.id",
       Icon: MailIcon,
       brand: "#EA4335",
     },
     {
       label: "Instagram",
-      val: "@rizq.wijaya",
-      href: "https://instagram.com/rizq.wijaya",
+      val: "@yusuf_aqts",
+      href: "https://instagram.com/yusuf_aqts",
       Icon: InstagramIcon,
       brand: "#E4405F",
     },
     {
       label: "WhatsApp",
-      val: "+62 822-4580-5586",
-      href: "https://wa.me/6282245805586",
+      val: "+62 857-0714-2275",
+      href: "https://wa.me/6285707142275",
       Icon: WhatsAppIcon,
       brand: "#25D366",
     },
     {
       label: "GitHub",
-      val: "@rizqwijaya",
-      href: "https://github.com/rizqwijaya",
+      val: "@yusufalqodri",
+      href: "https://github.com/yusufalqodri",
       Icon: GitHubIcon,
       brand: "#ffffff",
     },
@@ -93,7 +93,7 @@ export default function Contact() {
             </h3>
 
             <a
-              href="https://www.linkedin.com/in/rizqwijaya/"
+              href="https://www.linkedin.com/in/yusufalqodri"
               target="_blank"
               rel="noreferrer noopener"
               className="connect-row connect-row-wide"

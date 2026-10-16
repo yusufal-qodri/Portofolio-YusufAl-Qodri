@@ -19,7 +19,7 @@ export default function About() {
           <div className="about-left">
             <h2 className="about-title about-title-stack">
               <span className="about-hello anim-left" style={{ "--d": "220ms" }}>Hello, I'm</span>
-              <span className="about-name anim-left" style={{ "--d": "380ms" }}>Rizq Wijaya</span>
+              <span className="about-name anim-left" style={{ "--d": "380ms" }}>Yusuf Al-Qodri</span>
             </h2>
             <p className="about-body anim-left" style={{ "--d": "540ms" }}>
               I'm a <strong>tech and creative hybrid</strong>. By day, I ensure{" "}

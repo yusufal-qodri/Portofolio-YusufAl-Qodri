@@ -24,7 +24,7 @@ export default function Header() {
         onClick={(e) => onJump(e, "home")}
       >
         <span className="nav-brand-dot" />
-        Rizq Wijaya
+        Yusuf Al-Qodri
       </a>
       <div className="nav-links">
         {links.map((l) => (

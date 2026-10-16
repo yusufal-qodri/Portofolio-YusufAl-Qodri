@@ -8,7 +8,7 @@ export default function Work(props) {
     {
       id: "sap-migration",
       name: "BRIFIRST - SAP Basis Operations & Administration",
-      cat: "SAP Basis · 2023–2024",
+      cat: "SAP Basis · 2025–2026",
       tag: "SAP S/4HANA",
       art: "sap",
       cover: "/assets/SAP Project BRIFIRST.png",

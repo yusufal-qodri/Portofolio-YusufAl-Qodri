@@ -72,7 +72,7 @@ export default function Loader(props) {
         <div className="ls-logo-icon">
           <img
             src="/assets/wijaya pictures2.png"
-            alt="Rizq Wijaya logo"
+            alt="Yusuf Al-Qodri logo"
             className="ls-logo-img"
             width={200}
             height={200}
@@ -82,7 +82,7 @@ export default function Loader(props) {
           />
         </div>
         <div className="ls-logo-text">
-          Rizq Wijaya<span className="ls-dot">.</span>
+          Yusuf Al-Qodri<span className="ls-dot">.</span>
         </div>
         <div className="ls-tagline">SAP Basis · Video Editor · UI/UX</div>
       </div>

@@ -71,7 +71,7 @@ export default function Hero(props) {
             </span>
           </h1>
           <p className="hero-sub anim-left" style={{ "--d": "380ms" }}>
-            I'm <strong>Rizq Wijaya</strong>. By day, I keep enterprise systems
+            I'm <strong>Yusuf Al-Qodri</strong>. By day, I keep enterprise systems
             running as an SAP Basis consultant. By craft, I edit videos that move
             people and design interfaces that just feel right.
           </p>
@@ -97,7 +97,7 @@ export default function Hero(props) {
           </div>
           <div className="hero-socials anim-up" style={{ "--d": "700ms" }} aria-label="Social links">
             <a
-              href="https://github.com/rizqwijaya"
+              href="https://github.com/yusufal-qodri"
               target="_blank"
               rel="noopener noreferrer"
               className="hero-social"
@@ -109,7 +109,7 @@ export default function Hero(props) {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/in/rizqwijaya/"
+              href="https://www.linkedin.com/in/yusufalqodri"
               target="_blank"
               rel="noopener noreferrer"
               className="hero-social"
@@ -122,7 +122,7 @@ export default function Hero(props) {
               </svg>
             </a>
             <a
-              href="https://instagram.com/rizq.wijaya"
+              href="https://instagram.com/yusuf_aqts"
               target="_blank"
               rel="noopener noreferrer"
               className="hero-social"
