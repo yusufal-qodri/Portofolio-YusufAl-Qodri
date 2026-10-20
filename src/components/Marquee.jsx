@@ -2,10 +2,10 @@ import { Fragment } from "react";
 
 export default function Marquee() {
   const items = [
-    { name: "SAP Basis", sub: "User Management · Database · Troubleshooting" },
-    { name: "Video Editing", sub: "Premiere · Social Media · Motion" },
-    { name: "UI / UX Design", sub: "User Flow · Wireframe · Prototype" },
-    { name: "Vibe Coding", sub: "Web · Tools · Automation" },
+    { name: "Data Science & AI", sub: "Python · Machine Learning · Deep Learning" },
+    { name: "Meteorologi & Iklim", sub: "Analisis Curah Hujan · Variabilitas Iklim" },
+    { name: "Hidrologi Pertanian", sub: "Pemetaan DAS · Analisis Orde Sungai" },
+    { name: "Data Spasial & Lingkungan", sub: "Streamlit · GIS · Pemodelan Agroklimat" },
   ];
   const loop = items.concat(items, items);
   return (

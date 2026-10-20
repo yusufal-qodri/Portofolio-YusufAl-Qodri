@@ -2,13 +2,14 @@ import { useScrollSpy } from "../hooks.js";
 import MagneticButton from "./MagneticButton.jsx";
 
 export default function Header() {
-  const active = useScrollSpy(["home", "about", "services", "work", "contact"]);
+  const active = useScrollSpy(["home", "about", "work", "experience", "certificates", "contact"]);
   const links = [
-    { id: "home", label: "Home" },
-    { id: "about", label: "About" },
-    { id: "services", label: "Services" },
-    { id: "work", label: "Work" },
-    { id: "contact", label: "Contact" },
+    { id: "home", label: "Beranda" },
+    { id: "about", label: "Tentang Saya" },
+    { id: "work", label: "Proyek" },
+    { id: "experience", label: "Pengalaman" },
+    { id: "certificates", label: "Sertifikat" },
+    { id: "contact", label: "Kontak" },
   ];
   const onJump = (e, id) => {
     e.preventDefault();
@@ -24,7 +25,7 @@ export default function Header() {
         onClick={(e) => onJump(e, "home")}
       >
         <span className="nav-brand-dot" />
-        Yusuf Al-Qodri
+        Yusuf
       </a>
       <div className="nav-links">
         {links.map((l) => (
@@ -45,7 +46,7 @@ export default function Header() {
             className="btn primary"
             onClick={(e) => onJump(e, "contact")}
           >
-            Hire Me <span className="btn-arrow">→</span>
+            Hubungi Saya <span className="btn-arrow">→</span>
           </a>
         </MagneticButton>
       </div>

@@ -1,17 +1,17 @@
-# Halo, saya Rizq Wijaya 👋
+# Halo, saya Yusuf Al-Qodri Tsania Susma 👋
 
 Selamat datang di GitHub saya. Repository ini berisi **portfolio website pribadi** saya, dibangun dengan React 18, Vite, dan Three.js untuk efek 3D interaktif.
 
 ## Tentang Saya
 
-Seorang vibe coder dengan minat pada UI yang clean, performa yang ringan, dan detail interaksi.
+Mahasiswa Geofisika dan Meteorologi Terapan di IPB University dengan ketertarikan pada Data Science, Artificial Intelligence, dan Climate Analytics.
 
 ## Section
 
 - **Hero & About** — perkenalan singkat siapa saya
-- **Services & Skills** — apa saja yang bisa saya bantu kerjakan
-- **Work** — proyek-proyek yang pernah saya bangun
-- **Testimonials & Contact** — feedback klien dan cara menghubungi saya
+- **Services & Skills** — bidang dan keahlian
+- **Work** — proyek-proyek yang pernah dibangun
+- **Testimonials & Contact** — feedback dan cara menghubungi saya
 
 ## Tech Stack
 
@@ -21,9 +21,10 @@ Seorang vibe coder dengan minat pada UI yang clean, performa yang ringan, dan de
 
 ## Hubungi Saya
 
-- 📧 Email: mrizqwijaya@gmail.com
-- 💼 Tertarik kolaborasi atau ada proyek? Cek section **Contact** di website.
+- 🌐 GitHub: [yusufal-qodri](https://github.com/yusufal-qodri)
+- 💼 LinkedIn: [Yusuf Al-Qodri Tsania Susma](https://www.linkedin.com/in/yusuf-al-qodri-tsania-susma-ba5887323)
+- 🤝 Tertarik kolaborasi atau ada proyek? Cek section **Contact** di website.
 
 ---
 
-Terima kasih sudah mampir. Semoga karya saya bisa jadi inspirasi atau referensi untuk Anda. ⭐
+Terima kasih sudah mampir! ⭐

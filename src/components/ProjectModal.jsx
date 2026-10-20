@@ -70,25 +70,57 @@ export default function ProjectModal(props) {
                 ))}
               </div>
               <div className="modal-meta">
+                {project.contribution && (
+                  <div style={{ gridColumn: "1 / -1" }}>
+                    <div className="modal-meta-item-label">Peran / Kontribusi</div>
+                    <div className="modal-meta-item-val">{project.contribution}</div>
+                  </div>
+                )}
                 <div>
-                  <div className="modal-meta-item-label">Year</div>
+                  <div className="modal-meta-item-label">Tahun</div>
                   <div className="modal-meta-item-val">{project.year}</div>
                 </div>
                 <div>
-                  <div className="modal-meta-item-label">Duration</div>
+                  <div className="modal-meta-item-label">Status / Tipe</div>
                   <div className="modal-meta-item-val">
                     {project.duration}
                   </div>
                 </div>
-                <div style={{ gridColumn: "1 / -1" }}>
-                  <div className="modal-meta-item-label">Tools</div>
-                  <div className="modal-meta-item-val">{project.tools}</div>
-                </div>
+                {project.tools && (
+                  <div style={{ gridColumn: "1 / -1" }}>
+                    <div className="modal-meta-item-label">Teknologi &amp; Alat</div>
+                    <div className="modal-meta-item-val">{project.tools}</div>
+                  </div>
+                )}
               </div>
               <div className="modal-actions">
+                {project.demo && (
+                  <MagneticButton strength={0.2}>
+                    <a
+                      className="btn primary"
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Demo Publik <span className="btn-arrow">↗</span>
+                    </a>
+                  </MagneticButton>
+                )}
+                {project.repo && (
+                  <MagneticButton strength={0.2}>
+                    <a
+                      className={project.demo ? "btn ghost" : "btn primary"}
+                      href={project.repo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Repositori <span className="btn-arrow">↗</span>
+                    </a>
+                  </MagneticButton>
+                )}
                 <MagneticButton strength={0.2}>
                   <a
-                    className="btn primary"
+                    className={project.demo || project.repo ? "btn ghost" : "btn primary"}
                     href="#contact"
                     onClick={(e) => {
                       e.preventDefault();
@@ -100,8 +132,7 @@ export default function ProjectModal(props) {
                       }, 300);
                     }}
                   >
-                    Want one like this?{" "}
-                    <span className="btn-arrow">→</span>
+                    Hubungi Saya <span className="btn-arrow">→</span>
                   </a>
                 </MagneticButton>
               </div>

@@ -6,10 +6,10 @@ import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import Marquee from "./components/Marquee.jsx";
 import About from "./components/About.jsx";
-import Services from "./components/Services.jsx";
 import Work from "./components/Work.jsx";
+import Experience from "./components/Experience.jsx";
+import Certificates from "./components/Certificates.jsx";
 import ProjectModal from "./components/ProjectModal.jsx";
-import Testimonials from "./components/Testimonials.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
@@ -32,9 +32,9 @@ export default function App() {
         <Hero loading={loading} />
         <Marquee />
         <About />
-        <Services />
         <Work onOpen={setProject} />
-        <Testimonials />
+        <Experience />
+        <Certificates />
         <Contact />
         <Footer />
         <ProjectModal

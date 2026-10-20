@@ -6,60 +6,89 @@ export default function Work(props) {
   const ref = useReveal({ repeat: true });
   const projects = [
     {
-      id: "sap-migration",
-      name: "BRIFIRST - SAP Basis Operations & Administration",
-      cat: "SAP Basis · 2025–2026",
-      tag: "SAP S/4HANA",
-      art: "sap",
-      cover: "/assets/SAP Project BRIFIRST.png",
+      id: "sistem-iklim-bumi",
+      name: "Sistem Iklim Bumi — Media Pembelajaran Interaktif",
+      cat: "Proyek Kelompok (Tim 2 Orang)",
+      tag: "Climate Education",
+      art: "climate",
+      cover: "/assets/sistem-iklim-bumi.png",
       size: "large",
-      desc: "Handled day-to-day SAP Basis operations for the BRIFIRST landscape at Bank BRI, including user and authorization management, transport request handling, batch job monitoring, and deployment across development, QA, and production systems.",
-      year: "Nov 2023 – Nov 2024",
-      tools: "SAP S/4HANA · BMC Control-M · SAP Fiori · SAP HANA",
-      duration: "12 months",
-      tags: ["S/4HANA", "BMC Control-M", "SAP Fiori", "User Management"],
-    },
-    {
-      id: "niagahoster-checkout",
-      name: "Niagahoster - Seamless Checkout Experience",
-      cat: "UI/UX Design · Web Design · 2024",
-      tag: "UI/UX Design",
-      art: "video",
-      cover: "/assets/Niagahoster Web.jpg",
-      size: "small",
-      desc: "A comprehensive UI/UX redesign of a web hosting checkout flow, focusing on user-centered design to reduce cart abandonment and streamline the purchasing journey.",
+      desc: "Media pembelajaran interaktif mengenai sistem iklim dan perubahan iklim. Website menggabungkan materi dengan visualisasi dan simulasi agar pengguna dapat mengeksplorasi komponen serta proses dalam sistem iklim. Sejumlah parameter dapat diubah untuk melihat perubahan pada visualisasi atau nilai simulasi yang tersedia.",
+      contribution: "Proyek Kelompok (Tim 2 Orang — Yusuf berkontribusi pada pengerjaan teknis bersama tim)",
       year: "2024",
-      tools: "Figma · InVision · Maze",
-      duration: "1-2 months",
-      tags: ["UI/UX", "Figma", "E-commerce"],
+      tools: "HTML · CSS · JavaScript",
+      duration: "Proyek Tim",
+      tags: ["Climate Education", "Interactive Learning", "Team Project"],
+      demo: "https://nisasinta06.github.io/PBL-SPI/",
+      repo: "https://github.com/yusuf-al-qodri/SPI_KELOMPOK1",
     },
     {
-      id: "waste4change-app",
-      name: "Waste4Change - Mobile App Redesign",
-      cat: "UI / UX · 2025",
-      tag: "UI/UX Design",
-      art: "uiux",
-      cover: "/assets/Waste4Change Apps.jpg",
+      id: "pemetaan-orde-sungai-das-gede-pangrango",
+      name: "Pemetaan Orde Sungai DAS Gede Pangrango",
+      cat: "Proyek Individu",
+      tag: "GIS & Hydrology",
+      art: "river",
+      cover: "/assets/das-gede-pangrango.png",
+      size: "small",
+      desc: "Proyek pemetaan jaringan sungai dan orde sungai di kawasan Gede Pangrango. Visualisasi menampilkan kelas orde sungai Strahler, batas Sub-DAS, outlet, relief elevasi, skala peta, dan penunjuk arah utara.",
+      contribution: "Proyek Individu",
+      year: "2024",
+      tools: "Python",
+      duration: "Proyek Mandiri",
+      tags: ["Python", "GIS", "Hydrology", "River Network Mapping"],
+      demo: null,
+      repo: "https://github.com/yusuf-al-qodri/Ordo_DAS_Gede_Pangrango",
+    },
+    {
+      id: "analisis-probabilitas-hujan-ntt",
+      name: "Analisis Probabilitas Hujan NTT",
+      cat: "Proyek Individu",
+      tag: "Climate Analysis",
+      art: "rain",
+      cover: "/assets/probabilitas-hujan-ntt.png",
       size: "med-l",
-      desc: "The project aimed to simplify the process for users to manage, schedule, and send their sorted waste right from their smartphones. By reducing cognitive load and optimizing the visual layout.",
-      year: "2025",
-      tools: "Figma · InVision",
-      duration: "8 weeks",
-      tags: ["Mobile App", "Sustainability", "User-Centered Design"],
+      desc: "Aplikasi web untuk mengeksplorasi probabilitas hujan di Nusa Tenggara Timur melalui peta dan analisis hubungan antara indeks ONI dan curah hujan. Pengguna dapat menyaring tampilan berdasarkan musim dan tahun untuk membandingkan pola probabilitas hujan serta mengeksplorasi hubungan variabilitas iklim dengan curah hujan.",
+      contribution: "Proyek Individu",
+      year: "2024",
+      tools: "Python · Streamlit",
+      duration: "Proyek Mandiri",
+      tags: ["Python", "Streamlit", "Climate Analysis", "Rainfall Probability"],
+      demo: "https://projekmetklim-probabilitashujan.streamlit.app/",
+      repo: "https://github.com/yusuf-al-qodri/ProjekMetklim-ProbabilitasHujan",
     },
     {
-      id: "sap-basis-consultant",
-      name: "PT SISI - SAP Basis Consultant",
-      cat: "SAP Basis · Enterprise Infrastructure · 2025",
-      tag: "SAP ECC",
-      art: "motion",
-      cover: "/assets/SAP ECC PT SISI.jpg",
+      id: "simulasi-pertumbuhan-cabai",
+      name: "Simulasi Pertumbuhan Cabai",
+      cat: "Proyek Individu / Personal",
+      tag: "Agricultural Modeling",
+      art: "chili",
+      cover: null,
       size: "med-r",
-      desc: "Comprehensive end-to-end SAP Basis Consulting and system management to ensure high availability, security, and optimal performance of enterprise SAP environments (ERP, ECC, and Oracle).",
-      year: "Feb 2025 – May 2025",
-      tools: "SAP GUI · SAP ECC · Oracle Database",
-      duration: "4 months",
-      tags: ["Basis Consulting", "System Monitoring", "Landscape Config"],
+      desc: "Simulasi pertumbuhan tanaman cabai dengan parameter lingkungan yang dapat diubah untuk menganalisis respons perkembangan tanaman terhadap variabel agroklimat dan kondisi sekitar.",
+      contribution: "Proyek Individu / Personal",
+      year: "2024",
+      tools: "Python",
+      duration: "Proyek Mandiri",
+      tags: ["Python", "Simulation", "Agricultural Modeling"],
+      demo: null,
+      repo: "https://github.com/yusuf-al-qodri/Simulasi_Pertumbuhan_Cabe",
+    },
+    {
+      id: "tempa-ai-capstone",
+      name: "YouTube View Decline Diagnosis & Hippo Academy",
+      cat: "Proyek Kelompok · Capstone Tempa AI",
+      tag: "AI & Machine Learning",
+      art: "ai",
+      cover: null,
+      size: "large",
+      desc: "Platform analitik AI full-stack untuk mendiagnosis penyebab penurunan performa (views) channel YouTube secara ilmiah dan memberikan rekomendasi strategis menggunakan machine learning serta konsultasi cerdas berbasis RAG. Dikerjakan sebagai Capstone Project program Tempa AI (ID: AIC001B6Y0009). Rincian peran individu dalam tim menunggu konfirmasi.",
+      contribution: "Peserta Program Tempa AI (Kelulusan: Lulus Penuh · Status Proyek Akhir: Selesai)",
+      year: "2026",
+      tools: "Python · XGBoost · FastAPI · React",
+      duration: "Capstone Project",
+      tags: ["Machine Learning", "FastAPI", "React", "Capstone Project"],
+      demo: "https://wrappyt.web.id/",
+      repo: "https://github.com/xafiertect/wrappyt",
     },
   ];
   return (
@@ -68,10 +97,10 @@ export default function Work(props) {
         <div className="work-head">
           <div>
             <div className="section-label anim-left" style={{ "--d": "60ms" }}>
-              <span className="section-num">03</span> Selected Work
+              <span className="section-num">03</span> Proyek Unggulan
             </div>
             <h2 className="work-title anim-left" style={{ "--d": "220ms" }}>
-              Things I've <span className="italic-accent">shipped.</span>
+              Karya &amp; <span className="italic-accent">proyek terpilih.</span>
             </h2>
           </div>
         </div>
@@ -80,43 +109,43 @@ export default function Work(props) {
             <button
               key={p.id}
               className={"work-card anim-up " + p.size}
-              style={{ "--d": 320 + i * 200 + "ms" }}
+              style={{ "--d": 320 + i * 160 + "ms" }}
               onClick={() => onOpen(p)}
             >
-            <div className="work-art">
-              {p.cover ? (
-                <img className="work-art-cover" src={p.cover} alt={p.name} />
-              ) : (
-                <>
-                  <div className={"work-art-fill art-" + p.art} />
-                  <WorkArt kind={p.art} />
-                </>
-              )}
-            </div>
-            <div className="work-tag-top">{p.tag}</div>
-            <div className="work-meta">
-              <div>
-                <div className="work-name">{p.name}</div>
-                <div className="work-cat">{p.cat}</div>
+              <div className="work-art">
+                {p.cover ? (
+                  <img className="work-art-cover" src={p.cover} alt={p.name} />
+                ) : (
+                  <>
+                    <div className={"work-art-fill art-" + p.art} />
+                    <WorkArt kind={p.art} />
+                  </>
+                )}
               </div>
-              <div className="work-arrow">
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <line x1="7" y1="17" x2="17" y2="7" />
-                  <polyline points="7 7 17 7 17 17" />
-                </svg>
+              <div className="work-tag-top">{p.tag}</div>
+              <div className="work-meta">
+                <div>
+                  <div className="work-name">{p.name}</div>
+                  <div className="work-cat">{p.cat}</div>
+                </div>
+                <div className="work-arrow">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <line x1="7" y1="17" x2="17" y2="7" />
+                    <polyline points="7 7 17 7 17 17" />
+                  </svg>
+                </div>
               </div>
-            </div>
-          </button>
-        ))}
+            </button>
+          ))}
         </div>
       </div>
     </section>

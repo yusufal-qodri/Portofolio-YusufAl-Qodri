@@ -99,10 +99,49 @@ export default function SkillPanel() {
   }, []);
 
   const skills = [
-    { icon: "🖥️", name: "SAP Basis", pct: 95 },
-    { icon: "🎬", name: "Video Editing", pct: 88 },
-    { icon: "🎨", name: "UI / UX Design", pct: 90 },
-    { icon: "💻", name: "Vibe Coding", pct: 84 },
+    {
+      name: "Data Science & AI",
+      tag: "Python · ML",
+      icon: (
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <polyline points="16 18 22 12 16 6" />
+          <polyline points="8 6 2 12 8 18" />
+        </svg>
+      ),
+      pct: 100,
+    },
+    {
+      name: "Sains Iklim & Cuaca",
+      tag: "Meteorologi",
+      icon: (
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
+        </svg>
+      ),
+      pct: 100,
+    },
+    {
+      name: "Hidrologi Pertanian",
+      tag: "Agroklimat",
+      icon: (
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+        </svg>
+      ),
+      pct: 100,
+    },
+    {
+      name: "Pemetaan Spasial & GIS",
+      tag: "Analisis DAS",
+      icon: (
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21" />
+          <line x1="9" y1="3" x2="9" y2="18" />
+          <line x1="15" y1="6" x2="15" y2="21" />
+        </svg>
+      ),
+      pct: 100,
+    },
   ];
 
   const WAVE_COUNT = 22;
@@ -226,13 +265,15 @@ export default function SkillPanel() {
       <div className="skill-panel-head">
         <div className="skill-panel-title">
           <span className="skill-panel-title-dot" />
-          SKILL STACK
+          FOKUS KEAHLIAN
         </div>
         <div className="skill-panel-badge">
-          <span className="skill-panel-badge-icon" aria-hidden="true">
-            🔊
-          </span>
-          Hover to explore
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="skill-panel-badge-icon" aria-hidden="true">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+            <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+          </svg>
+          Interaktif
         </div>
       </div>
       <div
@@ -301,20 +342,20 @@ export default function SkillPanel() {
                 <div
                   className="skill-orb-fill"
                   style={{
-                    width: shown ? s.pct + "%" : "0%",
+                    width: shown ? "100%" : "0%",
                     transitionDelay: i * 0.08 + "s",
                   }}
                 />
               </div>
               <div className="skill-orb-pct">
-                <span className="skill-orb-pct-val">{s.pct}%</span>
+                <span className="skill-orb-pct-val">{s.tag}</span>
               </div>
             </button>
           );
         })}
       </div>
       <div className="skill-panel-foot">
-        <div className="skill-panel-foot-label">Activity</div>
+        <div className="skill-panel-foot-label">Aktivitas</div>
         <div className="skill-waveform" key={activeIdx}>
           {waveBars.map((b, i) => (
             <span
@@ -329,10 +370,9 @@ export default function SkillPanel() {
           ))}
         </div>
         <div className="skill-panel-foot-pct">
-          <span style={{ fontVariantNumeric: "tabular-nums" }}>
-            {skills[activeIdx].pct}
+          <span style={{ fontSize: "11px", letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--fg-muted)" }}>
+            {skills[activeIdx].tag}
           </span>
-          <span style={{ color: "var(--fg-muted)" }}>%</span>
         </div>
       </div>
     </div>

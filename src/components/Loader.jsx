@@ -49,12 +49,12 @@ export default function Loader(props) {
 
   const status =
     progress < 30
-      ? "Initializing"
+      ? "Memuat sistem"
       : progress < 65
-      ? "Loading assets"
+      ? "Menyiapkan komponen"
       : progress < 95
-      ? "Preparing surfaces"
-      : "Almost ready";
+      ? "Menyusun tampilan"
+      : "Hampir siap";
 
   return (
     <div
@@ -62,7 +62,7 @@ export default function Loader(props) {
       ref={wrapRef}
       onClick={skip}
       role="button"
-      aria-label="Loading — click to skip"
+      aria-label="Memuat — klik untuk lewati"
     >
       <div className="ls-glow" />
       <div className="ls-ring ls-ring-1" />
@@ -82,9 +82,9 @@ export default function Loader(props) {
           />
         </div>
         <div className="ls-logo-text">
-          Yusuf Al-Qodri<span className="ls-dot">.</span>
+          Yusuf<span className="ls-dot">.</span>
         </div>
-        <div className="ls-tagline">SAP Basis · Video Editor · UI/UX</div>
+        <div className="ls-tagline">Data Science &amp; AI · Geofisika &amp; Meteorologi Terapan</div>
       </div>
       <div className="ls-progress-wrap">
         <div className="ls-progress-track">

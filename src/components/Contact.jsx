@@ -66,8 +66,8 @@ export default function Contact() {
     },
     {
       label: "GitHub",
-      val: "@yusufalqodri",
-      href: "https://github.com/yusufalqodri",
+      val: "@yusufal-qodri",
+      href: "https://github.com/yusufal-qodri",
       Icon: GitHubIcon,
       brand: "#ffffff",
     },
@@ -78,22 +78,22 @@ export default function Contact() {
       <div ref={ref} className="reveal reveal-anim contact-grid">
         <div className="contact-left">
           <div className="section-label anim-left" style={{ "--d": "60ms" }}>
-            <span className="section-num">05</span> Get In Touch
+            <span className="section-num">06</span> Kontak
           </div>
           <h2 className="contact-title anim-left" style={{ "--d": "220ms" }}>
-            Have a project? <br />
-            <span className="italic-accent">Let's talk.</span>
+            Ada peluang kolaborasi? <br />
+            <span className="italic-accent">Mari berdiskusi.</span>
           </h2>
         </div>
         <div className="contact-right">
           <div className="connect-card anim-right" style={{ "--d": "320ms" }}>
             <h3 className="connect-card-title">
               <span className="connect-card-bar" aria-hidden="true" />
-              Connect With Me
+              Kontak &amp; Jejaring
             </h3>
 
             <a
-              href="https://www.linkedin.com/in/yusufalqodri"
+              href="https://www.linkedin.com/in/yusuf-al-qodri-tsania-susma-ba5887323"
               target="_blank"
               rel="noreferrer noopener"
               className="connect-row connect-row-wide"
@@ -105,8 +105,8 @@ export default function Contact() {
                   <LinkedInIcon className="connect-row-icon" />
                 </span>
                 <span className="connect-row-text">
-                  <span className="connect-row-label">Let's Connect</span>
-                  <span className="connect-row-val">on LinkedIn</span>
+                  <span className="connect-row-label">Terhubung di</span>
+                  <span className="connect-row-val">LinkedIn</span>
                 </span>
               </span>
               <ExternalIcon className="connect-row-ext" />

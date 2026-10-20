@@ -4,19 +4,19 @@ export default function Testimonials() {
   const ref = useReveal({ repeat: true });
   const items = [
     {
-      text: "Wijaya is a detailed talent, hardworking and has qualified skills. He is also very responsible for the tasks he receives. He is very good at editing videos, creating motion graphics, creating attractive User Interface designs.",
+      text: "Yusuf is a detailed talent, hardworking and has qualified skills. He is also very responsible for the tasks he receives. He is very good at editing videos, creating motion graphics, creating attractive User Interface designs.",
       name: "Galih Satrio Putra Haryanto",
       role: "Founder · Glimora Agency",
       initial: "GS",
     },
     {
-      text: "Wijaya is an excellent UI/UX Designer and also a dear friend and is someone who brings cohesiveness to the team. He always went beyond expectation and put extra attention to every element of his design.",
+      text: "Yusuf is an excellent UI/UX Designer and also a dear friend and is someone who brings cohesiveness to the team. He always went beyond expectation and put extra attention to every element of his design.",
       name: "Moch. Fatichin",
       role: "Graphic Design & UI/UX Design Enthusiast",
       initial: "MF",
     },
     {
-      text: "Wijaya is one of the best mentee at UI/UX Design class. He give his best to finish his final project and the final project was done very good. He always open for the feedback and has growth mindset!",
+      text: "Yusuf is one of the best mentee at UI/UX Design class. He give his best to finish his final project and the final project was done very good. He always open for the feedback and has growth mindset!",
       name: "Hofifa Mulya Utami",
       role: "Digital Product Designer · UI/UX Mentor",
       initial: "HU",
